@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     
 </head>
+    
 
 <body>
     
@@ -31,50 +32,90 @@
     </nav>
     </header>
     
+    <!--Information -->
     <section>
-    
-        Sticky Footer Navbar Template for Bootstrap
-getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/
-Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: ...
-Sticky Footer Template for Bootstrap
-https://getbootstrap.com/docs/4.0/examples/sticky-footer/
-Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. Use the sticky footer with a fixed navbar if need be, ...
-Examples · Bootstrap
-https://v4-alpha.getbootstrap.com/examples/
-Sticky footer w/ navbar. Attach a footer to the bottom of the viewport with a fixed top navbar. Experiments. Examples that focus on future-friendly features or ...
-Bootstrap footer Code Examples | Bootsnipp.com
-https://bootsnipp.com/tags/footer
-Sample bootstrap code of footer design elements using bootstrap, javascript, css, and html.
-‎Footer 2 · ‎Bootstrap Snippet footer using ... · ‎Social Icon Strip Footer · ‎Dropup footer
-Bootstrap Footer - Material Design for Bootstrap
-https://mdbootstrap.com/components/bootstrap-footer/
-Bootstrap footer will organize your navigation and information at the end of a page. It can be a very useful overview of the most important website content.
-Bootstrap Panels - W3Schools
-https://www.w3schools.com/bootstrap/bootstrap_panels.asp
-Bootstrap Panels ... Panels. A panel in bootstrap is a bordered box with some padding around its content: ... The .panel-footer class adds a footer to the panel: ...
-Freebie: 5 Fantastic Bootstrap Footers - Tutorialzine
-https://tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers
-Oct 24, 2016 - A bundle of Bootstrap 3 templates for responsive footers. They are absolutely free, very easy to implement, and will save you lots of precious ...
-Freebie: 5 Beautiful and Responsive Footer Templates - Tutorialzine
-https://tutorialzine.com/2015/01/freebie-5-responsive-footer-templates
-Freebie: 5 Beautiful and Responsive Footer Templates. January 19th 2015. Freebie ... beautiful interfaces using the Bootstrap Framework. Learn more.
-html - Fixed footer in Bootstrap - Stack Overflow
-https://stackoverflow.com/questions/19330611/fixed-footer-in-bootstrap
-Oct 12, 2013 - To get a footer that sticks to the bottom of your viewport, give it a fixed position like this: footer { position: fixed; height: 100px; bottom: 0; width: ...
-Bootstrap Footer - Bootply
-https://www.bootply.com/tagged/footer
-Bootstrap Footer example snippets with CSS, Javascript and HTML code. A collection of Bootstrap Footer code examples for Bootstrap 3.
-Searches related to footer bootstrap
-responsive footer in bootstrap
-bootstrap navbar footer
-bootstrap footer code
-bootstrap footer w3schools
-bootstrap 4 footer
-bootstrap footer bottom
-twitter bootstrap footer example
-bootstrap 4 footer bottom
+    <div class="container about-container">
+        <div class="row">
+             <div class="col-md-4">
+                
+                 <img class="profile-img" src="Media/daniel.jpg" width="300" height="300">
+            </div>
+            
+             <div class="col-md-8">
+            
+                <h2>About Moi</h2>
+               <p>
+                 Hello! I'm Daniel<br/><br/>
 
+                 Artist. Developer. Engineer<br/><br/>
+
+                 Born in Ghana, based in New York City and student at Macaulay Honors College.<br/><br/>
+
+                 Just an average dude intrigued by technology, obsessed with code, in love with art and design, filled with a passion to skate and determined to be better at sports.<br/><br/>
+
+                 I believe that one day, when the machines take over, developers will be the key to the war that will ensue! not really.<br/><br/>
+
+                 Aspiring to enhance our use of art, design and technology to the betterment of our existence.<br/>
+               </p>
+            </div>
+        </div>
+    </div>
     </section>
+    
+    
+    <section>
+    <div class="container">
+        <p>MY WORK</p>
+        
+        <div class="row">
+            <div class="col">
+                <img src="Media/square.png" width="300">
+                <p>Description</p>
+            </div>
+            
+            <div class="col">
+                <img src="Media/square.png" width="300">
+                <p>Description</p>
+            </div>
+            
+            <div class="col">
+                <img src="Media/square.png" width="300">
+                <p>Description</p>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    
+<section>
+  <div class="container">
+    <h2>Contact Form</h2>
+    
+    <form>
+      <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="pwd">Email:</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="pwd">Message:</label>
+          <textarea type="text" class="form-control" name="message" required></textarea>
+      </div>
+      
+      <div class="form-group submit">
+        <input type="submit" id="submitbutton" value="Send"/>
+      </div>
+      
+    </form>
+    
+  </div>
+</section>
+    
+    
     
     <footer>
     <nav class="navbar navbar-expand navbar-light bg-light sticky-bottom justify-content-between">
@@ -92,34 +133,6 @@ bootstrap 4 footer bottom
         
     </nav>
     </footer>
-    
-    
-    
-    <!--
-      
-    <footer class="footer" >
-        <div class="container text-muted">
-            <p>&copy; 2017 Daniel Obeng</p>
-            
-            <div class="btn-group" id="navbarNavAltMarkup">
-        <div class="pull-right">
-          <a href="#">About<span class="sr-only">(current)</span></a>
-          <a href="#">Portfolio</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
-        
-            <ul>
-                <li><img src="Media/email.png"></li>
-                <li><img src="Media/facebook.png"></li>
-                <li><img src="Media/github.png"></li>
-                <li><img src="Media/linkedin.png"></li>
-                <li><img src="Media/ig.png"></li>
-            </ul>
-        </div>
-        
-    </footer>
-<--
     
     
     <!-- Optional JavaScript -->
