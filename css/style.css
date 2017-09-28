@@ -16,6 +16,7 @@ body {
 .navbar a,
 .sec-about p {
   text-align: center;
+  color: rgb(0, 55, 75)
 }
 
 .navbar a {
@@ -49,18 +50,26 @@ p {
   text-decoration: underline;
 }
 
-.sec-services h2,
-.sec-services p {
-  font-weight: 300;
-  text-align: center;
-}
-
-.sec-testimonials p {
-  font-style: italic;
+#about {
+  background-color: rgb(0, 191, 161);
 }
 
 .sec-contact .btn {
   text-transform: uppercase;
+  background-color: rgb(0, 191, 161);
+  color: rgb(0, 55, 75)
+  
+}
+
+#contact #message {
+  min-height: 132px;
+  height: auto;
+}
+
+
+.sec-contact{
+  background-color: rgb(0, 55, 75);
+  color: rgb(0, 191, 161)
 }
 
 .soc-media-ul a {
