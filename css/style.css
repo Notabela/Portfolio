@@ -161,7 +161,8 @@ hr {
   border-radius: 100%;
   width: auto;
   height: auto;
-  min-width: 50%;
+  min-width: 20%;
+  max-width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
