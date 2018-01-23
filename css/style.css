@@ -185,13 +185,22 @@ hr {
 }
 
 .typed-cursor {
-        opacity: 1;
-        font-weight: 100;
-        -webkit-animation: blink 0.7s infinite;
-        -moz-animation: blink 0.7s infinite;
-        -ms-animation: blink 0.7s infinite;
-        -o-animation: blink 0.7s infinite;
-        animation: blink 0.7s infinite;
+    -webkit-animation: blinker 1s linear infinite;
+            animation: blinker 1s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
 }
 
 
