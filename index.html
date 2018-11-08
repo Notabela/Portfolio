@@ -68,7 +68,8 @@
         <div class="col-sm-6 col-sm-offset-3">
           <p class="about-text">Hello I'm Daniel <br/> 
           Artist, Developer, Engineer and IT Enthusiast. <br />
-            I live to create...<br/> <br/>
+            My dream is to create a better world with &lt;code/&gt;<br/> <br/>
+            <a href="http://github.com/notabela" target="_blank">Checkout my latest projects on Github</a><br />
             <a href="http://notabela.github.io/files/Daniel_obeng_resume.pdf" target="_blank">Download my resume</a>
           </p>
         </div>
@@ -96,6 +97,12 @@
         </div>
       </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <img class="center-block" src='https://i.imgur.com/UDdzYi5.gif' title='Video Walkthrough' alt='Video Walkthrough' />
+        </div>
+      </div>
+
       </div>
   </section>
     
@@ -112,31 +119,31 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
+                  <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name." aria-invalid="false" disabled
                   <p class="help-block text-danger"></p>
                 </div>
                 <!--end form-group-->
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                  <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." disabled>
                   <p class="help-block text-danger"></p>
                 </div>
                 <!--end form-group-->
                 <div class="form-group">
-                  <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                  <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number." disabled>
                   <p class="help-block text-danger"></p>
                 </div>
                 <!--end form-group-->
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
+                  <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." aria-invalid="false" disabled></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button type="submit" class="btn btn-xl">Send Message</button>
+                <button type="submit" class="btn btn-xl" disabled>Send Message</button>
               </div>
             </div>
           </form>
@@ -178,7 +185,7 @@
     <script>
     $(document).ready(function(){
       Typed.new('.element', {
-          strings: ["a programa", "an enginner", "a coder", "&lt;code/&gt;"],
+          strings: ["a programa...", "an enginner?", "a coder..?", "&lt;code/&gt;"],
           typeSpeed: 40,
           backDelay: 900,
           backSpeed: 40
